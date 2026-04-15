@@ -6,7 +6,7 @@ description: |
   P2: 카피 써줘, 카피 만들어줘, 카피 진단해줘, 카피 바꿔줘, write copy, diagnose copy, fix copy.
   P3: copywriting engine, UX writing, marketing copy, brand voice, tone of voice, copy diagnosis.
   P5: 카피로, 카피시트로, .md로.
-  NOT: 순수 디자인(→design-skill), 순수 행동분석(→human-skill), 순수 히트패턴(→hit-skill), 문서 구조(→deliverable-engine), BP(→bp-guide).
+  NOT: 순수 디자인(→design-skill), 순수 행동분석(→human-skill), 순수 히트패턴(→hit-skill), 문서 구조, BP(→bp-guide).
 "@uses":
   # 벤치마크 (4)
   - references/benchmarks-app.md
