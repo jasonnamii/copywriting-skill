@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "description": "Copywriting-engine 회귀테스트 샘플 케이스. self_check.py가 이 파일을 로드해 기대-실측 대조.",
+  "cases": [
+    {
+      "id": "case-01-diagnose-app",
+      "mode": "diagnose",
+      "input": "에러 메시지: '오류가 발생했습니다'",
+      "expected": {
+        "type": "A-에러(A3)",
+        "product_mode": "범용",
+        "ux_writing_check": "N9_FAIL",
+        "issue": "원인·해법 누락 (3요소 미충족)",
+        "prescription_keyword": ["원인", "해법"]
+      }
+    },
+    {
+      "id": "case-02-produce-c8-hip",
+      "mode": "produce",
+      "input": "C8 온보딩 화면 진입. 크리에이터에게 첫 행동 유도.",
+      "expected": {
+        "type": "A1",
+        "product_mode": "C8",
+        "tone": "Hip",
+        "theory": "Hook Model",
+        "upstream": ["design-skill"]
+      }
+    },
+    {
+      "id": "case-03-design-marketing",
+      "mode": "design",
+      "input": "신규 구독 상품 랜딩페이지 카피 전략",
+      "expected": {
+        "type": "C3",
+        "product_mode": "범용",
+        "tone": "Standard",
+        "theory_primary": "PAS/AIDA",
+        "theory_booster": "5단계 인식",
+        "upstream": ["hit-skill", "human-skill"]
+      }
+    },
+    {
+      "id": "case-04-b-series-always-normal",
+      "mode": "produce",
+      "input": "C8 내부 PRD 문서에 들어갈 섹션 제목",
+      "expected": {
+        "type": "B3",
+        "product_mode": "범용",
+        "tone": "Standard",
+        "rule": "B계열은 C8 모드에서도 항상 범용"
+      }
+    },
+    {
+      "id": "case-05-error-forces-standard",
+      "mode": "produce",
+      "input": "C8 결제 실패 에러 화면 카피",
+      "expected": {
+        "type": "A3",
+        "product_mode": "C8",
+        "tone": "Standard",
+        "rule": "에러·법적·결제 맥락은 🟡 Experimental 금지, ⚪ Standard 강제",
+        "ux_writing_check_required": ["N2", "N5", "N9", "N10"]
+      }
+    }
+  ]
+}
