@@ -338,6 +338,19 @@ python scripts/self_check.py .
 
 ---
 
+
+## §INV NO_WORK_LABEL (산출물·대화 본질 보호)
+
+| 항목 | 정의 |
+|------|------|
+| RULE | 산출물·대화 = 인간 언어. 작업 라벨 ZERO. (1만 페이지 1단어 = FAIL) |
+| 판정 | "이 단어, 이 대화 밖 사람이 사전 없이 읽을 수 있나?" NO → 작업 라벨 → 금지 |
+| ALLOW | 업계 전문용어(CTA·UX·KPI·SNS·USP·UVP) · 고유명사(브랜드명·캠페인명) · 법조문 |
+| CONVERT | 라벨 발견 → 실명·평문 풀어쓰기. 예) "27유형×12이론×3톤·C8/범용·Phase 0 핑퐁" → 결과만 노출 / "human→hit→진실필터 3게이트" → 본문 비노출 / "힙톤·보수·일반" → 톤 결과 평문 |
+| SELF_CHECK | 최종 카피 출력 직전에서 자체 스캔. 1개라도 발견 = 차단·재작성. paper-engine cascade 경유 시 INV 13 자동 적용 |
+
+---
+
 ## 🚨 MUST cascade → paper-engine (절대규칙)
 
 **이 스킬의 모든 리포트·산출물 = paper-engine 허브 MUST 경유.** 단독 md/html 출력 = FAIL.
