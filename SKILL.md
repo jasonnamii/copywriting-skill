@@ -1,14 +1,14 @@
 ---
 name: copywriting-engine
-version: 1.2.0
+version: 1.3.0
 vault_dependency: OPTIONAL
 description: |
-  카피라이팅 엔진. 27유형×12이론×3톤×C8/범용. Phase 0 핑퐁(누구·어디·CTA 필수) 미수집시 차단. 힙톤=human→hit→진실필터 3게이트. 보수·일반=구조엔진. 진단·설계·생산 3모드.
-  P1: 카피라이팅, copywriting, 카피, 카피엔진, UX라이팅, 마케팅카피, 앱카피, 광고카피, CTA, 랜딩카피, 이메일카피, SNS카피, 브랜드보이스, 톤앤매너, 카피진단, 힙카피, 힙한카피, 상황카피.
-  P2: 카피 써줘, 만들어줘, 진단해줘, 바꿔줘, 힙하게 써줘, write copy, hip copy.
-  P3: copywriting engine, UX writing, marketing copy, brand voice, copy diagnosis, hip copy framework.
-  P5: 카피로.
-  NOT: 순수디자인(→design-skill), 순수행동분석(→human-skill), 순수히트패턴(→hit-skill), BP(→bp-guide).
+  카피엔진 v1.3. 27유형×12이론×3톤+코퍼스(한25·영22·KIWI11·100선). 5축 핑퐁→힙톤3게이트→PRE_WRITE→KIWI17체크. 진단·설계·생산. 한국1568+영문1000+ 박제.
+  P1: 카피라이팅, copywriting, 카피, 카피엔진, UX라이팅, 마케팅카피, 앱카피, 광고카피, CTA, 랜딩카피, 이메일카피, SNS카피, 브랜드보이스, 톤앤매너, 카피진단, 힙카피, 브랜드슬로건, 헤드라인, 태그라인, 코퍼스카피, KIWI, 명카피.
+  P2: 카피 써줘, 만들어줘, 진단해줘, 바꿔줘, 힙하게, write copy.
+  P3: copywriting, UX writing, brand voice, brand slogan, headline, tagline.
+  P5: 카피로, 슬로건으로.
+  NOT: 디자인(→design-skill), 행동(→human-skill), 히트(→hit-skill), BP(→bp-guide).
 "@uses":
   # 벤치마크 (4)
   - references/benchmarks-app.md
@@ -48,9 +48,14 @@ description: |
   - references/ux-writing-mode.md
   # UX 원리
   - references/ux-principles.md
+  # 코퍼스 박제 (v1.3 신규)
+  - references/corpus-ko-patterns.md
+  - references/corpus-en-slogans.md
+  - references/corpus-writing-rules-KIWI.md
+  - references/corpus-hall-of-fame.md
 ---
 
-# Copywriting Engine — 카피라이팅 엔진 v1.2.0
+# Copywriting Engine — 카피라이팅 엔진 v1.3.0
 
 27유형 × 12이론 × 3톤 조합으로 카피를 **진단·설계·생산**. **Phase 0 상황 핑퐁 게이트** 필수. 힙톤은 3게이트(human→hit→진실필터) 강제. hit-skill·human-skill 하류 소비, design-skill 협업.
 
@@ -215,6 +220,42 @@ FAIL → 게이트별 재실행 (max 2회, 초과시 STOP)
 
 ---
 
+## §2.6 코퍼스 인덱스 — 광고·브랜드 카피 사전 (v1.3 신규)
+
+**목적:** 카피 모음 코퍼스(한국 1568+영문 1000+ 슬로건·11법칙) 박제 인덱스. 생산·진단·번역 시 패턴 사전으로 자동 참조.
+
+**자동 로드 트리거:**
+| 발동 조건 | 로드 스포크 |
+|----------|-----------|
+| 한국어 카피 생산·진단 (모드 무관) | `corpus-ko-patterns.md` (25패턴) |
+| 영문 슬로건·태그라인·헤드라인 | `corpus-en-slogans.md` (22구조) |
+| 한국어 카피 송출 직전 자체검증 | `corpus-writing-rules-KIWI.md` (11법칙) |
+| 카피 벤치마크 기준선·"이 카피 명카피급?" 검증 | `corpus-hall-of-fame.md` (한·영 100선) |
+| "광고카피·브랜드슬로건" 키워드 직접 호출 | 4개 모두 로드 |
+
+**한국 카피 정량 분포 (1568개 자동 측정):**
+- 영어 혼용 19.1% · "당신/나/우리" 호명 18.1% · 느낌표 11.8% · 수치 10.7% · 감각어 5.7%
+- 5대 산업: 가전(319) · 식품(160) · 화장(158) · 패션(157) · 자동차(148)
+
+**슈퍼 패턴 (조합):** 명카피 = 2~3개 패턴 결합
+- 렉서스 6연작 = A1(당신) + F13(순간) + E10(시리즈)
+- 카라 4연작 = A1(그녀가 원한다면) + I19(정의) + E10(시리즈)
+- 딤채 = E12(의성어) + I19(발효과학) + H17(감각)
+
+**KIWI 11법칙 = 한국어 카피 송출 게이트:**
+1. 추상→구체 / 2. 강조어 문장 끝 / 3. 동사 정곡·부사 절제 / 4. '것' 중복 금지
+5. '도/등' 자제 / 6. 주어 반복 ✗ / 7. 단어·어미 중복 ✗ / 8. 과잉 수사 ✗
+9. 한 문장=한 주어 / 10. 자신없는 표현 ✗ / 11. 조사 빼라
+
+**WRONG/CORRECT 1쌍:**
+- ❌ "여러분의 피부는 매우 소중한 것입니다" (KIWI 4·9·11 위반)
+- ✅ "피부를 깊이 섬긴다 — 설화수" (8자·동사·단일약속)
+
+→ 상세: `corpus-ko-patterns.md` · `corpus-en-slogans.md` · `corpus-writing-rules-KIWI.md` · `corpus-hall-of-fame.md`
+→ VAULT 원본: `_skills research/copywriting-engine/`
+
+---
+
 ## §2.7 PRE_WRITE — 카피 생성 직전 룰 (사전 가드)
 
 **목적:** 사후교정 의존 → **카피 작성 시점에 룰 강제**. AI식 흔적·번역투·장황·일반함이 *생성 직후* 차단.
@@ -307,7 +348,7 @@ python scripts/copy_router.py spokes A1 c8 hip
 
 ### 생산 모드
 ```
-§0 핑퐁(5축) → ①브리프 분석 → ②유형·이론·톤 판별 → [Hip시 §2.5 3게이트] → §2.7 PRE_WRITE 룰 로드 → ③스포크 로드 → ④상류 활성화 → ⑤카피 작성(PRE_WRITE 강제) → ⑤-b PRE_WRITE 자체검증 → ⑥QC → ⑦길이 검증 → ⑧산출
+§0 핑퐁(5축) → ①브리프 분석 → ②유형·이론·톤 판별 → [Hip시 §2.5 3게이트] → §2.6 코퍼스 인덱스 자동 로드 (한·영·KIWI·100선) → §2.7 PRE_WRITE 룰 로드 → ③스포크 로드 → ④상류 활성화 → ⑤카피 작성(PRE_WRITE 강제) → ⑤-b PRE_WRITE 자체검증 → ⑥QC (KIWI 17체크 포함) → ⑦길이 검증 → ⑧산출
 ```
 
 ### 출력 포맷
@@ -472,3 +513,6 @@ python scripts/self_check.py .
 | 13 | 시스템 용어 노출 (N2 위반) | "400 Bad Request" → 사용자 언어로 번역 |
 | 14 | self_check 미실행 후 배포 | 수정 후 항상 실행. CHANGELOG 갱신 |
 | 15 | "아무튼 힙하게" 요청에 핑퐁 강제로 사용성 저하 | §0.5 fast-path는 Hip톤 미적용. 진실축 1줄만 받고 진행 |
+| 16 | **한국어 카피 송출 직전 KIWI 11법칙 미통과** | §2.6 corpus-writing-rules-KIWI.md 17체크 강제. '것·도·등' ≤1, 추상→구체, 동사 정곡 |
+| 17 | **광고슬로건·태그라인 요청에 코퍼스 인덱스 미참조** | §2.6 자동 로드. corpus-ko-patterns(25패턴) + corpus-en-slogans(22구조) + corpus-hall-of-fame(100선) 벤치마크 |
+| 18 | **명카피 100선 직접 인용·표절** | corpus-hall-of-fame.md = 벤치마크 기준선. 동등 구조 재창작은 OK, verbatim 사용 ✗ |
