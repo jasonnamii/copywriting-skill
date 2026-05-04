@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""copywriting-engine self-check.
+"""copywriting-skill self-check.
 
 스킬 자체 건강 진단. skill-doctor의 자식 버전. 외부 파일 없이 SKILL.md·references·evals 정합성만 검증.
 
@@ -110,7 +110,7 @@ CHECKS = [
 
 
 def main() -> int:
-    print(f"=== copywriting-engine self-check ({ROOT}) ===")
+    print(f"=== copywriting-skill self-check ({ROOT}) ===")
     failed = 0
     for name, fn in CHECKS:
         ok, msg = fn(ROOT)
