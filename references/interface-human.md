@@ -1,5 +1,5 @@
 # Interface: Human-Skill Consumption
-## How copywriting-engine activates 16 axes + 44 meta-principles
+## How copywriting-skill activates 16 axes + 44 meta-principles
 
 ---
 

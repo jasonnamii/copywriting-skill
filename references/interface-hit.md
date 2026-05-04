@@ -1,5 +1,5 @@
 # Interface: Hit-Skill Consumption
-## How copywriting-engine activates 3-layer hit patterns
+## How copywriting-skill activates 3-layer hit patterns
 
 ---
 
@@ -635,7 +635,7 @@ Creators are movements, not just users. Copy should:
 
 ## ACTIVATION PROTOCOL
 
-When copywriting-engine receives a brief, run this sequence:
+When copywriting-skill receives a brief, run this sequence:
 
 ### Step 1: L1 Screening (Which axes are relevant?)
 **Input:** Copy brief (type, audience, goal)

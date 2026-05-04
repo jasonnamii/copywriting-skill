@@ -1,4 +1,4 @@
-# Post Skill-Doctor Notes — copywriting-engine
+# Post Skill-Doctor Notes — copywriting-skill
 
 **진단일:** 2026-04-26  
 **현 SKILL.md 크기:** 17620B (목표: ≤10KB)

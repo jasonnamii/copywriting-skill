@@ -24,7 +24,7 @@
 - 카테고리 분포: 가전 319 / 식품 160 / 화장 158 / 패션 157 / 자동차 148
 
 ### 박제 위치
-- VAULT: `_skills research/copywriting-engine/` — 5개 노트 (00_corpus_index·01_ko_patterns·02_en_slogan_structures·03_writing_rules_KIWI·04_industry_signatures·05_hall_of_fame)
+- VAULT: `_skills research/copywriting-skill/` — 5개 노트 (00_corpus_index·01_ko_patterns·02_en_slogan_structures·03_writing_rules_KIWI·04_industry_signatures·05_hall_of_fame)
 - 스킬: `references/corpus-*.md` 4개 신규
 
 # CHANGELOG

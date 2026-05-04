@@ -195,7 +195,7 @@ Q4 (Oct-Dec):
 ### Recommended Directory Structure
 
 ```
-copywriting-engine/
+copywriting-skill/
 ├── library/
 │   ├── A-types/
 │   │   ├── A1-headline/
@@ -306,7 +306,7 @@ You notice:
 1. Revert to previous version ID (e.g., A1-v1.2-hipA-EN)
 2. Update MASTER-INDEX.md → Status: Live
 3. Create ROLLBACK log entry
-4. Notify stakeholders (Slack: #copywriting-engine)
+4. Notify stakeholders (Slack: #copywriting-skill)
 ```
 
 **Step 2: Root Cause Analysis (within 24hrs)**

@@ -2,7 +2,7 @@
 
 코퍼스 = 카피 모음 8종에서 추출. 카피 생산 직전 **벤치마크 기준선**.
 
-상세: `→ VAULT/_skills research/copywriting-engine/05_hall_of_fame.md`
+상세: `→ VAULT/_skills research/copywriting-skill/05_hall_of_fame.md`
 
 ## 영문 30선
 

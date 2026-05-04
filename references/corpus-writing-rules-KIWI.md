@@ -2,7 +2,7 @@
 
 코퍼스: 글쓰기법칙_KIWI MG.pptx/pdf — 한국어 글쓰기 본질 11종
 
-생산 모드 한국어 카피 송출 직전 **자체검증 게이트**. 참조: `→ VAULT/_skills research/copywriting-engine/03_writing_rules_KIWI.md`
+생산 모드 한국어 카피 송출 직전 **자체검증 게이트**. 참조: `→ VAULT/_skills research/copywriting-skill/03_writing_rules_KIWI.md`
 
 ## 11법칙 = 카피 통과 체크리스트
 

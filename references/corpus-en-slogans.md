@@ -2,7 +2,7 @@
 
 코퍼스: Interbrand Top 100 + 영문 카피 모음.xlsx + 영문브랜드슬로건.docx
 
-영문 카피 생산·번역·진단 시 **구조 사전**. 참조: `→ VAULT/_skills research/copywriting-engine/02_en_slogan_structures.md`
+영문 카피 생산·번역·진단 시 **구조 사전**. 참조: `→ VAULT/_skills research/copywriting-skill/02_en_slogan_structures.md`
 
 ## 22구조 인덱스
 

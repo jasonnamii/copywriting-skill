@@ -1,5 +1,5 @@
 # Interface: Design-Skill Co-dependency
-## How copywriting-engine works WITH design-skill
+## How copywriting-skill works WITH design-skill
 
 ---
 
@@ -206,7 +206,7 @@ STEP 2: Extract copy constraints from wireframe:
          - Section 1: max 30 words
          - Section 2: max 50 words
          - CTA: max 5 words
-STEP 3: Pass wireframe + constraints to copywriting-engine
+STEP 3: Pass wireframe + constraints to copywriting-skill
 STEP 4: Copywriting-engine writes 3 copy variants that fit constraints
 STEP 5: Review: Does copy honor design intent?
 STEP 6: Iterate (design may expand if copy needs space)

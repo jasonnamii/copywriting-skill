@@ -2,7 +2,7 @@
 
 코퍼스: 광고카피_한글 + 광고카피 1600개 (한국 카피 1,568개 자동 분석)
 
-생산·진단 시 **한국어 카피 통과 사전**. 참조: `→ VAULT/_skills research/copywriting-engine/01_ko_patterns.md`
+생산·진단 시 **한국어 카피 통과 사전**. 참조: `→ VAULT/_skills research/copywriting-skill/01_ko_patterns.md`
 
 ## 정량 분포 (1568개 자동 측정)
 
