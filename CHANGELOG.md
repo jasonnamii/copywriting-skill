@@ -1,3 +1,27 @@
+## v1.4.0 — 2026-05-10 — 다이어트 (skill-builder v2.0 적용)
+
+**목적:** 본문 50% 압축 + references 위임 강화. 기능 보존, 가독성↑.
+
+### 변경
+- **본문 25,395B → 10,050B (60% ↓), 520줄 → 218줄 (58% ↓)**
+- **절대규칙 7개 → 4개** (skill-builder v2.0 "explain why, not heavy MUSTs" 철학)
+  - 7번(에러 프로토콜)·6번(QC 생략 금지)·5번(전수 스캔 금지) → 본문 권고로 격하
+  - 🚨 MUST cascade(paper-engine) → 절대규칙 4번에 흡수
+- **references 3개 신규 분리:**
+  - `phase0-pingpong.md` — 5축 핑퐁 질문 템플릿·fast-path·진단 모드
+  - `pre-write-detail.md` — 6룰 상세·유형별 길이·Hip추가룰·SCOPE_OUT·자체검증
+  - `cascade-rules.md` — paper-engine·CONFIRM_GATE·NO_WORK_LABEL
+- **본문 표·코드블럭 → 인라인 압축** (§1·§2·§3·§5·§6·§7·§8 모두)
+- **Gotchas 19개 → 핵심 8개** (나머지 11개는 가드레일 스포크로 위임)
+- **license 필드 추가** (Anthropic 권고)
+- **P1 키워드 22 → 15** (핵심만)
+
+### 보존
+- 27유형 × 12이론 × 3톤 본질 그대로
+- §0 핑퐁 → §2.5 3게이트 → §2.7 PRE_WRITE → §5 QC 4단 흐름 그대로
+- 36개 references 전부 유지 (본문에서 분리만, 삭제 ✗)
+- evals·scripts·CHANGELOG·version 7축 검증 7/7 PASS
+
 # CHANGELOG
 
 
